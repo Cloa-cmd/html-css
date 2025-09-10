@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkes</title>
+    <style>
+        body{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        a{
+            color: brown;
+            text-decoration: none; /*Tirar os sublinhados de todo A */
+            font-weight: bold; /*ficar em negrito*/
+
+        }
+        a:visited{
+            color: crimson; /*Visitado fica nessa cor*/
+        }
+        a:hover{
+            color: #181616; /*Passar mouse por cima fica preto o A*/
+            text-decoration: underline;/*sublinha o texto de A*/
+        }
+        a:active{
+            color: goldenrod;
+        }
+        a::after{/*todo link, dps(after) do link ou seja dps de todos os links*/
+            content: '[link]'; /*depois do link avisar que:*/
+            text-decoration: none;
+            font-weight: normal;
+            color: blueviolet;
+        
+        
+        } 
+    </style>
+
+</head>
+<body>
+
+    <h1>Personalisando Links</h1>
+</ul>
+    <li><a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/16%20-%20Modelo%20de%20Caixas.pdf">Repositorio GitHub</a></li>
+    <li> <a href="https://github.com/gustavoguanabara">Canal YouTube</a></li>
+    <li><a href="https://github.com/gustavoguanabara/html-css">Site do Curso em Video</a></li>
+</ul>
+</body>
+</html>

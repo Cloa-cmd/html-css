@@ -1,0 +1,33 @@
+@charset "utf - 8";
+/* em html é id = em css é #
+ em html é class = em css é . (ponto( */
+
+body {
+    background-color: rgb(12, 197, 197);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+h1 {
+    color: rgb(3, 3, 204);
+}
+h1#principal { /*Chama o id para folha de stilo, pode ser so #principal*/
+    background-color: rgb(173, 154, 154);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    text-align: center;
+}
+h2 {
+    color: rgb(3, 3, 71);
+}
+.basico {
+    color: brown;
+
+}
+.intermediario {
+    color: chocolate;
+
+}
+.avançado {
+    color: coral;
+
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mideas em HTML5</title>
+    <h1>Imagens Dinamia</h1>
+    <p>tente abrir essa imagem em varias tela</p>
+   
+    <picture> <!--Foto adaptada para diversas telas-->
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png"
+        type="image/png"> 
+        <source media="(max-width: 950px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="foto-g"><!--começar chamando a imagem grande e fazer dps as que estao em cima-->
+    </picture>
+    <h1>Reproduzindo Audio</h1>
+    <p>Vamos aprender a reproduzir midia em HTML 5</p>
+    <audio src="midia/Zoob.mp3" controls autoplay></audio>
+    <br>
+    ________________
+    <p>Outra forma</p>
+    <audio preload="metadata" controls loop>
+        <source src="midia/Zoob.mp3" type="audio/mpeg">
+
+    </audio>
+
+</head>
+<body>
+    
+</body>
+</html>
