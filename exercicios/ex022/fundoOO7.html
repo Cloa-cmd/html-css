@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento Vertical</title>
+    <style>
+        #container {
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+            position: relative;
+            height: 499px;
+            padding: 11px;
+            background-color: blueviolet;
+        }
+        #conteudo {
+             background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+            position: absolute;/*quando diz Absoluto vc pode configurar 2 propriedades importantes*/
+
+            height: 199px;
+            width: 399px;
+            background-color: yellow;
+            /*margin: auto; => alinha horizontal apenas*/
+
+            left: 50%; /*so consegue essa propriedades em parceria com posiçaõ absoluta*/
+            top: 50%;
+
+            transform: translate(-50%, -50%);
+
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>
+    
+</body>
+</html>
