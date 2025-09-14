@@ -35,15 +35,28 @@ a:hover {
     text-decoration: underline;
 }
 
+section {
+    padding-top: 9vh;
+    padding-bottom: 9vh;
+    line-height: 2em;
+    padding-left: 29px;
+}
+
 section.normal {
     background-color: aliceblue;
     color: black;
 }
 
 section.imagem {
-    background-color: aliceblue;
-    color: black;
+    background-color: rgb(13, 13, 14);
+   color: aliceblue;
 }
+
+section.imagem > p {
+    width: 399px;
+    background-color: rgba(0, 0, 0, 0.253);
+}
+
 
 footer {
     background-color: black;
